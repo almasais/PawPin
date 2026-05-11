@@ -15,16 +15,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Views/Reporting/AddReportView.swift,
 			);
 			target = B145E0B92FB1FA6200A2E1E0 /* PawPin */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		6BAA63852FB21BA900BF3A6C /* Exceptions for "PawPin" folder in "Copy Bundle Resources" phase from "PawPin" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B145E0B82FB1FA6200A2E1E0 /* Resources */;
+			membershipExceptions = (
+				Views/Reporting/AddReportView.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B145E0BC2FB1FA6200A2E1E0 /* PawPin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				B145E0C72FB1FA6300A2E1E0 /* Exceptions for "PawPin" folder in "PawPin" target */,
+				6BAA63852FB21BA900BF3A6C /* Exceptions for "PawPin" folder in "Copy Bundle Resources" phase from "PawPin" target */,
 			);
 			path = PawPin;
 			sourceTree = "<group>";
@@ -146,7 +158,7 @@
 				CODE_SIGN_ENTITLEMENTS = PawPin/PawPin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW445Z22P6;
+				DEVELOPMENT_TEAM = 2S8JYVLNZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PawPin/Info.plist;
@@ -180,7 +192,7 @@
 				CODE_SIGN_ENTITLEMENTS = PawPin/PawPin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW445Z22P6;
+				DEVELOPMENT_TEAM = 2S8JYVLNZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PawPin/Info.plist;
