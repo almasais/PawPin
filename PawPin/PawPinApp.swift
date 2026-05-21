@@ -20,7 +20,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct PawPinApp: App {
     var body: some Scene {
         WindowGroup {
-            OTPVerificationView() // تأكدي إن المكتوب هنا AuthView مو ContentView
+            CameraView() // تأكدي إن المكتوب هنا AuthView مو ContentView
         }
     }
 }
