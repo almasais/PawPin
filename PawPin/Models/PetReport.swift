@@ -489,3 +489,4 @@ struct MapPinItem: Identifiable {
         ))
     }
 }
+
